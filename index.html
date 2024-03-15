@@ -9,28 +9,30 @@
     <body>
         <header>
 
-            <ul id="dropdown">
-                <li onclick=hideDropdown()>
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="26" width="26"><path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"></path></svg>  
-                    </a>
-                </li>
-                <li>
-                    <a href="#about-page">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="#projects-page">
-                        Projects
-                    </a>
-                </li>
-                <li>
-                    <a href="#contact-page">
-                        Connect
-                    </a>
-                </li>
-            </ul>
+            <div id="dropdown">
+                <ul>
+                    <li onclick=hideDropdown()>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="26" width="26"><path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"></path></svg>  
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about-page">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects-page">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact-page">
+                            Connect
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
             
             
@@ -40,7 +42,7 @@
                 
                 <ul>
                     <li>
-                        <h4>HMev</h4>
+                        <h4>Ħɱ|đev</h4>
                     </li>
                     <li>
                         <a class="hide" href="#home-page">
@@ -73,6 +75,13 @@
             </navbar>
         </header>
 
+
+
+                                                                    <!--HOME PAGE-->
+
+
+
+
         <section id="home-page">
             <div id="home">
 
@@ -86,11 +95,13 @@
                         I'm Hloma Mbalula
                     </h2>
                     <p>
-                        Software Engineer
+                        Developer
                     </p>
-                    <button id="resumeButton">
-                        <strong>RESUME</strong>
-                    </button>
+                    <div id="resumeButton">
+                        <a href="Hloma Mbalula-Resume.pdf"  download="Hloma Mbalula-Resume.pdf">
+                            RESUME
+                        </a>
+                    </div>
                     <div id="socials">
                         <a href="https://www.linkedin.com/in/hloma/" target="_blank">
                             <img src="icons8-linkedin-24.png">
@@ -113,64 +124,234 @@
                 </div>
                 
             </div>
-            <div id="home-footer">
-                <h3>Copyrights Owned By Hloma Mbaula</h3>
+            <div id="homeFooter">
+                <h3>Copyrights © | Hloma Mbaula. 
+                    <br>All rights reserved</h3>
             </div>
         </section>
+
+
+
+                                                                    <!--ABOUT PAGE-->
+
+
         <section id="about-page">
-            <div id="about-container">
-                <div id="text-container">
-                    <h1>About</h1>
-                    <p>
-                        Hello, I'm Hloma Mbalula, currently transitioning from Architecture to Software Engineering. I'm passionate about coding. I am captivated by its limitless capabilities, 
-                        
-                    </p>
+            <div id="image-container">
+                <div id="about-heading">
+                    
+                    <h1>IN THE EYES OF THE DESIGNER</h1>
                 </div>
-                
+
             </div>
+        
+            <div id="about-flex">
+                <div id="experienceContainer">
+                    <h1>EXPERIENCE</h1>
+                    <br>
+                    <h4>FreeLance Project</h4>
+                    <br>
+                    <p>
+                        <ul>
+                            <li>
+                                Built a small business website for Gumbaza Trading (PTY) LTD.
+                            </li>
+                            
+                        </ul>
+                    </p>
+                    <br>
+                    <h4>Web Developer Intern With CodSoft</h4>
+                    <br>
+                    <p>
+                        <ul>
+                            <li>
+                                Built This Portfolio Website.
+                            </li>
+                            
+                        </ul>
+                    </p>
+                    
+                   
+                </div>
+                <div id="aboutContainer">
+                    <h1>ABOUT ME</h1>
+                    <br>
+                    <h3>
+                        Hello, I'm Hloma Mbalula, a creative professional with a background in architecture now venturing into software engineering. I'm passionate about blending simplicity with creativity to solve problems.
+                        <br>
+                        <br>
+                        From designing sustainable structures that harmonize with their surroundings to developing user-friendly interfaces for digital applications, I thrive on finding elegant solutions to complex challenges.
+                        <br>
+                        <br>
+                        My transition into software engineering stems from a desire to leverage technology to make a meaningful impact in the world.
+                       
+                    </h3>
+
+                </div>
+                <div id="skillsContainer">
+                    <h1>SKILLS</h1>
+                    <br>
+                    <p>
+                        Currently, I'm proficient in HTML, CSS, and have basic knowledge of JavaScript and Python. I'm eager to continue expanding my skills and tackling new challenges in the tech industry.
+                    </p>
+                    <br>
+                    <div id="icons">
+                        <img src="HTML5.png">
+                        <img src="JAVASCRIPT.png">
+                        <img src="CSS.png">
+                        <img src="PYTHON.png">
+                        
+                    </div>
+                    
+
+                </div>
+                </div>
+            </div>
+            
            
         </section>
+
+
+                                                                    <!--PROJECTS PAGE-->
+
+
         <section id="projects-page">
+            <div id="heading-container">
+                <div id="heading-box">
+                    <h1>Projects</h1>
+                </div>
+            </div>
             <div id="projects-container">
-                <h1>
-                    Projects
-                </h1>
-                <div id="flex-container">
-
-                    <div class="project-tile1">
+                <div id="tile-container">
+                    <div id="image-tile">
+                        <img src="logo.jpg" alt="logo">
 
                     </div>
-                  
-                    <div class="project-tile1Des">
-                        <h3>
-                            Business Website
-                        </h3>
-                        <p>
-                            This was a simple website that I built for a client. The client basically wanted to have website, to be able to reach 
-
-                        </p>
+                    <div id="text-tile">
+                        <div id="projectText-container">
+                            <h2>
+                                Business Website
+                            </h2>
+                            
+                            <p>
+                                a dynamic website spotlighting the comprehensive services provided by a valued client. Crafted utilizing HTML, CSS, and a sprinkle of JavaScript, the site boasts a refined 4-page layout designed to effectively showcase the client's offerings to potential customers. 
+                            </p>
+                        </div>
                     </div>
-                    
-                    
                     
                 </div>
+
+                
+
                 
             </div>
-            
+
         </section>
+
+
+                                                                    <!--CONNECT PAGE-->
+
+
+
         <section id="contact-page">
-            <div id="contact-container">
-                <h1>
-                    Connect ?
-                </h1>
-            </div>
-            <div id="content">
-                <div class="content-container">
-                    
+            <div id="connect-container">
+                <div id="connect-heading">
+                    <h1>
+                        Wish to Connect ?
+                    </h1>
+                </div>
+                <div id="flex-connect">
+                    <div id="connectText">
+                        <h3 id="connect-text">
+                            You want to connect ?<br> or simply just chat ? <br><a href="mailto:hlomambalula88@gmail.com" target="_blank">
+                                <span class="con-link"><p>Email me</p></span></a> 
+                                <br>or simply just reach out on one of my social media platforms.
+                                <br><br>
+                            <a href="https://web.facebook.com/hloma.mbalula.14/" target="_blank">
+    
+                                <span class="con-link">
+                                    <p>Facebook</p>
+                                </span>
+                            </a>
+                                
+                                <br>
+                            <a href="https://www.instagram.com/hl.omaa/" target="_blank">
+                                <span class="con-link">
+                                    <p>Instagram</p>
+                                </span>
+                            </a>
+                            <br>
+                            <a href="https://www.linkedin.com/in/hloma/" target="_blank">
+                                <span class="con-link">
+                                    <p>Linkedin</p>
+                                </span>
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div id="form-container">
+                        <form>
+                            <fieldset>
+                                <label for="name">
+                                    Name
+                                </label><br>
+                                <input id="name" type="text" placeholder="Enter your name">
+                            </fieldset>
+                            <fieldset>
+                                <label for="surname">
+                                    Surname
+                                </label><br>
+                                <input id="surname" type="text" placeholder="Enter your surname">
+                            </fieldset>
+                            <fieldset>
+                                <label for="email">
+                                    Email
+                                </label><br>
+                                <input id="email" type="email" placeholder="youremail@gmail.com">
+                            </fieldset>
+                            <fieldset>
+                                <label for="textarea">
+                                    Talk to me!
+                                    
+                                </label><br>
+                                <textarea id="textarea">
+
+                                </textarea>
+                            </fieldset>
+                            <button id="submit" >
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+    
                 </div>
             </div>
             
         </section>
+        <footer>
+            <div id="footer-container">
+                <a href="https://www.linkedin.com/in/hloma/" target="_blank">
+                    <img src="icons8-linkedin-24.png">
+                </a>
+                <a href="https://github.com/Hloma-Mbalula" target="_blank">
+                    <img src="icons8-github-24.png">
+                </a>
+                <a href="https://web.facebook.com/hloma.mbalula.14/" target="_blank">
+                    <img src="icons8-facebook-24.png">
+                </a>
+                <a href="https://www.instagram.com/hl.omaa/" target="_blank">
+                    <img src="icons8-instagram-24.png">
+                </a>
+                <a href="mailto:hlomambalula88@gmail.com" target="_blank">
+                    <img src="icons8-gmail-24.png">
+                </a>
+            </div>
+            <div id="footerText">
+                <h3>
+                    Copyrights ©|Hloma Mbaula.
+                    <br>All rights reserved
+                </h3>
+            </div>
+        </footer>
         <script src="script.js"></script>
     </body>
 </html>
