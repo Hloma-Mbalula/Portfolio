@@ -322,6 +322,10 @@ navbar a:hover{
 
 
 /*PROJECTS PAGE*/
+#projects-page{
+    height: auto;
+    margin-bottom: 100px;
+}
 
 #heading-container{
     height: 100px;
@@ -350,18 +354,29 @@ navbar a:hover{
 }
 #tile-container{
     margin: 25px;
-    background-color: gray;
+    background-color: white;
     
     border-radius: 20px;
-    height: 100vh;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+#tile-container2{
+    margin: 25px;
+    background-color: white;
+    border-radius: 20px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
 
 
-
-    
-    
+}
+#projects-container{
+    display: flex;
+    flex-direction: column;
 }
 #image-tile{
     background-color: black;
@@ -373,8 +388,18 @@ navbar a:hover{
     left: 20px;
     
 }
-#projectText-container{
+#image-tile2{
     background-color: black;
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+    top: 45px;
+    left: 20px;
+    
+}
+#projectText-container{
+    background-color: white;
     height: 210px;
     width: 400px;
     border-radius: 20px;
@@ -384,13 +409,35 @@ navbar a:hover{
 }
 #projectText-container h2{
     padding: 10px;
-    color: white;
+    color: black;
     font-family: 'Segoe UI';
     font-size: 35px;
     font-weight: 100;
 }
 #projectText-container p{
-    color: white;
+    color: black;
+    padding: 10px;
+    font-family: sans;
+    
+}
+#projectText-container2{
+    background-color: white;
+    height: 210px;
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+    top: 45px;
+    left: 20px;
+}
+#projectText-container2 h2{
+    padding: 10px;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 35px;
+    font-weight: 100;
+}
+#projectText-container2 p{
+    color: black;
     padding: 10px;
     font-family: sans;
     
@@ -401,11 +448,19 @@ navbar a:hover{
     border-radius: 20px;
     display: block;
 }
+#image-tile2 img{
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
 @media (max-width: 720px){
     #tile-container{
         
         margin: 25px 25px auto;
     } 
+    #tile-container2{
+        margin: 25px 25px auto;
+    }
     #image-tile{
         margin: auto;
         left: 0px;
@@ -426,7 +481,13 @@ navbar a:hover{
         position: relative;
         top: 20px;
     }
-}
+    
+    #tile-container2{
+        position: relative;
+        left: 430px;
+        
+    }
+
 /*CONTACT-PAGE*/
 
 #contact-page{
