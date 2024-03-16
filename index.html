@@ -42,7 +42,7 @@
                 
                 <ul>
                     <li>
-                        <h4>ĦM|Dev</h4>
+                        <h4>HM</h4>
                     </li>
                     <li>
                         <a class="hide" href="#home-page">
@@ -95,7 +95,7 @@
                         I'm Hloma Mbalula
                     </h2>
                     <p>
-                        Developer
+                       Developer
                     </p>
                     <div id="resumeButton">
                         <a href="Hloma Mbalula-Resume.pdf"  download="Hloma Mbalula-Resume.pdf">
@@ -224,45 +224,37 @@
                 <div id="tile-container">
                     <div id="image-tile">
                         <img src="logo.jpg" alt="logo">
-
                     </div>
-                    <div id="text-tile">
+
+                    
                         <div id="projectText-container">
                             <h2>
                                 Business Website
-                            </h2>
+                            </h2><br>
                             
                             <p>
-                                a dynamic website spotlighting the comprehensive services provided by a valued client. Crafted utilizing HTML, CSS, and a sprinkle of JavaScript, the site boasts a refined 4-page layout designed to effectively showcase the client's offerings to potential customers. 
+                                A dynamic website spotlighting the comprehensive services provided by a valued client. Crafted utilizing HTML, CSS, and a sprinkle of JavaScript, the site boasts a refined 4-page layout designed to effectively showcase the client's offerings to potential customers. 
                             </p>
                         </div>
-                    </div>
-
-                </div>
-                <div id="tile-container2">
-                    <div id="image-tile2">
-                        <img src="alvaro-bernal-RgIKRYhmG2k-unsplash (1).jpg" alt="watch">
-
-                    </div>
-
-                    <div id="text-tile">
-                        <div id="projectText-container2">
-                            <h2>
-                                Watch Landing Page<br>
-                                
-                            </h2>
-                            
-                            <p>
-                                a dynamic website spotlighting the comprehensive services provided by a valued client. Crafted utilizing HTML, CSS, and a sprinkle of JavaScript, the site boasts a refined 4-page layout designed to effectively showcase the client's offerings to potential customers. 
-                            </p>
-                        </div>
-                    </div>
                     
                 </div>
+                <div id="tile-container2">
+                    <div id="image-tile">
+                        <img src="alvaro-bernal-RgIKRYhmG2k-unsplash (1).jpg" alt="watch">
+                    </div>
 
-                
-
-                
+                    
+                        <div id="projectText-container2">
+                            <h2>
+                                Watch Landing Page
+                            </h2><br>
+                            
+                            <p>
+                                Discover elegance and simplicity in our minimalist watch landing website. Explore our collection with ease through sleek design and intuitive navigation. Experience a world where style meets functionality, where every second is showcased with precision 
+                            </p>
+                        </div>
+                    
+                </div>
             </div>
 
         </section>
@@ -309,35 +301,36 @@
                     </div>
 
                     <div id="form-container">
-                        <form>
+                        <form action="https://api.web3forms.com/submit" method="POST">
                             <fieldset>
                                 <label for="name">
                                     Name
                                 </label><br>
-                                <input id="name" type="text" placeholder="Enter your name">
+                                <input type="hidden" name="access_key" value="64ea63df-2ecf-486c-b64a-c2bb66262016">
+                                <input id="name" type="text" placeholder="Enter your name" name="name">
                             </fieldset>
                             <fieldset>
                                 <label for="surname">
                                     Surname
                                 </label><br>
-                                <input id="surname" type="text" placeholder="Enter your surname">
+                                <input id="surname" type="text" placeholder="Enter your surname" name="surname">
                             </fieldset>
                             <fieldset>
                                 <label for="email">
                                     Email
                                 </label><br>
-                                <input id="email" type="email" placeholder="youremail@gmail.com">
+                                <input id="email" type="email" placeholder="youremail@gmail.com" name="email">
                             </fieldset>
                             <fieldset>
                                 <label for="textarea">
                                     Talk to me!
                                     
                                 </label><br>
-                                <textarea id="textarea">
+                                <textarea id="textarea" name="textarea">
 
                                 </textarea>
                             </fieldset>
-                            <button id="submit" >
+                            <button id="submit" type="submit" >
                                 Submit
                             </button>
                         </form>

@@ -195,12 +195,15 @@ navbar a:hover{
 /*ABOUT PAGE*/
 
 #image-container{
+    margin: 20px 20px auto;
     height: 300px;
+    
     background-color: black;
     background-image: url(EYES.jpg);
     background-position: center;
     background-size: cover;
-    box-shadow: 0 0  90px black;
+   
+    border-radius: 20px;
 
 }
 #about-heading{
@@ -217,7 +220,7 @@ navbar a:hover{
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 100;
     font-style: oblique;
     
@@ -344,6 +347,12 @@ navbar a:hover{
     border-radius: 20px;
 
 }
+@media (max-width: 720px){
+    #heading-box{
+        position: absolute;
+        left: 30px;
+    }
+}
 #heading-box h1{
     padding-bottom: 5px;
     font-family: 'Segoe UI';
@@ -354,61 +363,57 @@ navbar a:hover{
 }
 #tile-container{
     margin: 25px;
-    background-color: white;
-    
     border-radius: 20px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 5rem;
 
 }
 #tile-container2{
     margin: 25px;
-    background-color: white;
     border-radius: 20px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-
+    gap: 5rem;
+    justify-content: end;
 
 }
+
 #projects-container{
     display: flex;
     flex-direction: column;
 }
 #image-tile{
-    background-color: black;
+    background-color: white;
     height: 200px;
     width: 400px;
     border-radius: 20px;
     position: relative;
     top: 45px;
     left: 20px;
-    
 }
 #image-tile2{
-    background-color: black;
+    background-color: white;
     height: 200px;
     width: 400px;
     border-radius: 20px;
     position: relative;
     top: 45px;
     left: 20px;
-    
 }
+
 #projectText-container{
     background-color: white;
-    height: 210px;
+    height: 220px;
     width: 400px;
     border-radius: 20px;
-    position: relative;
-    top: 45px;
-    left: 20px;
+    padding: 10px; 
 }
+
 #projectText-container h2{
-    padding: 10px;
+    
     color: black;
     font-family: 'Segoe UI';
     font-size: 35px;
@@ -416,21 +421,20 @@ navbar a:hover{
 }
 #projectText-container p{
     color: black;
-    padding: 10px;
+    
     font-family: sans;
     
 }
 #projectText-container2{
     background-color: white;
-    height: 210px;
+    height: 220px;
     width: 400px;
     border-radius: 20px;
-    position: relative;
-    top: 45px;
-    left: 20px;
+    padding: 10px; 
 }
+
 #projectText-container2 h2{
-    padding: 10px;
+    
     color: black;
     font-family: 'Segoe UI';
     font-size: 35px;
@@ -438,55 +442,44 @@ navbar a:hover{
 }
 #projectText-container2 p{
     color: black;
-    padding: 10px;
+    
     font-family: sans;
     
 }
-
 #image-tile img{
     width: 100%;
     border-radius: 20px;
     display: block;
 }
-#image-tile2 img{
-    width: 100%;
-    border-radius: 20px;
-    display: block;
-}
+
 @media (max-width: 720px){
     #tile-container{
         
         margin: 25px 25px auto;
     } 
-    #tile-container2{
-        margin: 25px 25px auto;
-    }
+    
     #image-tile{
         margin: auto;
         left: 0px;
     }
-    #projectText-container{
+    #projectText-container {
         margin: auto;
-        position: relative;
-        top: 0;
-        left: 105px;
-        
     }
-    
+    #projectText-container2 {
+        margin: auto;
+    }
    
-   
+
+
 }
 @media (min-width: 720px){
     #projectText-container{
         position: relative;
         top: 20px;
     }
-    
-    #tile-container2{
-        position: relative;
-        left: 430px;
-        
-    }
+   
+}   
+   
 
 /*CONTACT-PAGE*/
 
