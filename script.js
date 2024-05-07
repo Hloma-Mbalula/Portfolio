@@ -1,3 +1,4 @@
+
 function showDropdown(event){
     event.preventDefault();
     const dropdown = document.querySelector("#dropdown")
@@ -8,3 +9,4 @@ function hideDropdown(event){
     const sidebar = document.querySelector("#dropdown")
     dropdown.style.display="none"
 }
+
